@@ -58,6 +58,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
         Text("Ini Adalah Halaman Login",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic,
+            color = Color.Yellow
             )
         Spacer(modifier = Modifier.padding(20.dp))
         Image(
