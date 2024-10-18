@@ -77,13 +77,17 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic,
             color = Color.Blue,
         )
+        Text("20220140182",
+            fontSize = 30.sp,
+            fontStyle = FontStyle.Normal
+        )
         Spacer(modifier = Modifier.padding(20.dp))
         Image(
             painter = painterResource(id = R.drawable.luthfi),
             contentDescription = "",
             modifier = Modifier
                 .clip(CircleShape)
-                .size(499.dp)
+                .size(700.dp)
         )
     }
 }
