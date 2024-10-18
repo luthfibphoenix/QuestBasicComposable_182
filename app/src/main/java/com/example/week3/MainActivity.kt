@@ -83,7 +83,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
             contentDescription = "",
             modifier = Modifier
                 .clip(CircleShape)
-                .size(500.dp)
+                .size(499.dp)
         )
     }
 }
