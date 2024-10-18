@@ -55,7 +55,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
         Text("Ini Adalah Halaman Login",
             fontSize = 50.sp,
             fontStyle = FontStyle.Italic,
-            )a
+            )
         Spacer(modifier = Modifier.padding(20.dp))
         Image(painter = painterResource(id = R.drawable.a),
             contentDescription = "",
