@@ -48,7 +48,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 50.dp)
+            .padding(top = 25.dp)
     )
     {
         Text("LOGIN",
@@ -56,7 +56,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(18.dp))
         Text("Ini Adalah Halaman Login",
-            fontSize = 50.sp,
+            fontSize = 25.sp,
             fontStyle = FontStyle.Italic,
             )
         Spacer(modifier = Modifier.padding(20.dp))
@@ -69,8 +69,9 @@ fun BasicColumn(modifier: Modifier = Modifier){
         )
 
         Text("NAMA",
-            fontSize = 50.sp,
+            fontSize = 30.sp,
             fontStyle = FontStyle.Italic,
+            color = Color.Magenta
         )
         Text("Luthfi Bachtiar R",
             fontSize = 30.sp,
@@ -84,11 +85,11 @@ fun BasicColumn(modifier: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.padding(20.dp))
         Image(
-            painter = painterResource(id = R.drawable.luthfi),
+            painter = painterResource(id = R.drawable.logo_umy),
             contentDescription = "",
             modifier = Modifier
                 .clip(RectangleShape)
-                .size(599.dp)
+                .size(250.dp)
         )
     }
 }
