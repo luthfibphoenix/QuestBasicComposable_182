@@ -77,6 +77,14 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic,
             color = Color.Blue,
         )
+        Spacer(modifier = Modifier.padding(20.dp))
+        Image(
+            painter = painterResource(id = R.drawable.luthfi),
+            contentDescription = "",
+            modifier = Modifier
+                .clip(CircleShape)
+                .size(500.dp)
+        )
     }
 }
 
