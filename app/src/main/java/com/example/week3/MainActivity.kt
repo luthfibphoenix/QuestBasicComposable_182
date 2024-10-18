@@ -52,7 +52,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
     )
     {
         Text("LOGIN",
-            fontSize = 100.sp,
+            fontSize = 50.sp,
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(18.dp))
         Text("Ini Adalah Halaman Login",
@@ -65,9 +65,9 @@ fun BasicColumn(modifier: Modifier = Modifier){
             contentDescription = "",
             modifier = Modifier
                 .clip(CircleShape)
-                .size(250.dp)
+                .size(200.dp)
         )
-
+        Spacer(modifier = Modifier.padding(20.dp))
         Text("NAMA",
             fontSize = 30.sp,
             fontStyle = FontStyle.Italic,
@@ -85,10 +85,10 @@ fun BasicColumn(modifier: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.padding(20.dp))
         Image(
-            painter = painterResource(id = R.drawable.logo_umy),
+            painter = painterResource(id = R.drawable.luthfi),
             contentDescription = "",
             modifier = Modifier
-                .clip(RectangleShape)
+                .clip(CircleShape)
                 .size(250.dp)
         )
     }
