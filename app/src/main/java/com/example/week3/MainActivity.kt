@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -57,9 +58,17 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic,
             )
         Spacer(modifier = Modifier.padding(20.dp))
-        Image(painter = painterResource(id = R.drawable.logo_umy),
+        Image(
+            painter = painterResource(id = R.drawable.logo_umy),
             contentDescription = "",
-            modifier = Modifier.clip(RectangleShape))
+            modifier = Modifier
+                .clip(CircleShape)
+        )
+
+        Text("NAMA",
+            fontSize = 50.sp,
+            fontStyle = FontStyle.Italic,
+        )
     }
 }
 
