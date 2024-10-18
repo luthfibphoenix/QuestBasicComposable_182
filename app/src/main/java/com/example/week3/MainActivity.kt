@@ -57,7 +57,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic,
             )
         Spacer(modifier = Modifier.padding(20.dp))
-        Image(painter = painterResource(id = R.drawable.a),
+        Image(painter = painterResource(id = R.drawable.logo_umy),
             contentDescription = "",
             modifier = Modifier.clip(RectangleShape))
     }
